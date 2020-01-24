@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-package com.peel.react.rnos;
+package com.peel.react;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -26,11 +26,6 @@ public final class RNOSModule implements ReactPackage {
         modules.add(new RNOS(reactContext));
 
         return modules;
-    }
-
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
     }
 
     @Override
