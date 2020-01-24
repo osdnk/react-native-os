@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-package com.peel.react.rnos;
+package com.peel.react;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
